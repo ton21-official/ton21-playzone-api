@@ -1,0 +1,17 @@
+{
+  "name": "ton21-playzone-api",
+  "version": "1.0.0",
+  "description": "T21 PlayZone Cloudflare Worker API",
+  "main": "src/index.ts",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "typescript": "5.2.2",
+    "wrangler": "^4.46.0"
+  },
+  "dependencies": {
+    "@ton/crypto": "^3.3.0"
+  }
+}

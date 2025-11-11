@@ -1,0 +1,19 @@
+name = "t21-playzone-api"
+main = "src/index.ts"
+compatibility_date = "2023-12-01"
+
+kv_namespaces = [
+  { binding = "T21_STATE", id = "927a5e2ca0194a52b1333ef8de565883" }
+]
+
+[vars]
+API_TITLE = "T21 Play Zone"
+
+# твой секретный ключ — НИКОМУ не показывать
+API_KEY = "T21_7sT8fK19sQ93Bf920Nf4km02Z1HkL59Q1IcN33sKf92"
+
+# остальное (как у тебя)
+TONCENTER_API_KEY = "6c157ea65cec504b0aa2d83c2f68ef8e72f796755bf1445b1e5168da2e452b83a"
+ADMIN_WALLET      = "UQDnvC4Q_48dwK7HCzFPwyyyWIdyY7O4IaNbPampAGfVTIwzI"
+ADMIN_PRIVATE_KEY = "10b8b017105ac50c1355fa50f7c1da5107347a716526a8f7356667c6c11599896aab6ed004e476b0c77d3bfc81d5d97f2b683a5d5988bdbfa0dab06cf9b1ee98"
+JETTON_WALLET     = "EQB1giPMly9B2IMGqaqudx0Fe_N01ard-LhlKsfxBd8rzYRG"
